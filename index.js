@@ -21,7 +21,7 @@ if(true){
 	console.log(x,y)
 }
 console.log(x,y)
-//Resposta 3412
+//Resposta: 3412
 
 //---------------------------------------------
 
