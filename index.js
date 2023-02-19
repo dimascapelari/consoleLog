@@ -20,14 +20,15 @@ if(true){
 	const y = 4
 	console.log(x,y)
 }
-console.log(x,y) 
+console.log(x,y)
+//Resposta 3412
 
 //---------------------------------------------
 
 var z = 254;
 z = 283;
 console.log(z)
-//Resppsta: 283 
+//Resposta: 283 
 
 //---------------------------------------------
 
