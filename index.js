@@ -53,7 +53,7 @@ console.log(z)
 
 var x = "1" + 2 + 3;
 console.log(x);
-//Resposta: "123";
+//Resposta: "123"
 
 //---------------------------------------------
 
