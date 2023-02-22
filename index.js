@@ -27,7 +27,7 @@ let a = 1,
   c = 3;
 let result = (a++, b++, c++, a + b + c);
 console.log(result);
-//Resposta: 9*/
+//Resposta: 9
 
 //---------------------------------------------
 
