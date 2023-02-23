@@ -1,12 +1,10 @@
 //---------------------------------------------
 
-(function () {
-  var a = (b = 5);
-})();
-
-console.log(b);
-console.log(a);
-//Resposta: 5, error 
+(function(){
+	var a = b = 5
+})()
+console.log(b)
+//Resposta: 5
 
 //---------------------------------------------
 
