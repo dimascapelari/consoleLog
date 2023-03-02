@@ -7,6 +7,12 @@
 //---------------------------------------------
 
 
+let nums = [1, 2, 3, 4, 5];
+let updated = nums.splice(2, 2, 2);
+console.log(nums, updated);
+
+// Resposta: [ 1, 2, 2, 5 ] [ 3, 4 ]
+
 //---------------------------------------------
 
 console.log(NaN === NaN)
