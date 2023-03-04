@@ -1,5 +1,9 @@
 //---------------------------------------------
 
+console.log(typeof(null))
+console.log(typeof(undefined))
+console.log(typeof(NaN))
+//Resppsta: object, undefined, number
 
 //---------------------------------------------
 
