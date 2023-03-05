@@ -4,6 +4,12 @@
 
 //---------------------------------------------
 
+let a = [3,4,1e3,0xff]
+maxA = Math.max(...a),
+maxB = Math.max.apply(null,a)
+console.log(maxA === maxB)
+//Resposta: true
+
 //---------------------------------------------
 
 console.log(typeof(null))
