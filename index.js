@@ -2,6 +2,15 @@
 
 //---------------------------------------------
 
+var fun = function () {
+  console.log(x);
+  var x = 20;
+};
+fun();
+//Resposta undefined
+
+//---------------------------------------------
+
 let arr = [1, 2, 3];
 arr.push(4);
 arr.pop(); 
