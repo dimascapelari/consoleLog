@@ -2,6 +2,14 @@
 
 //---------------------------------------------
 
+var x = 12;
+var y = 8;
+var res = eval("x+y");
+console.log(res);
+//Resposta: 20
+
+//---------------------------------------------
+
 var fun = function () {
   console.log(x);
   var x = 20;
