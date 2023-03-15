@@ -1,5 +1,10 @@
 //---------------------------------------------
 
+const ref = "name"
+const obj = {name: "Virat"}
+const obj2 = {...obj, ref: "Kohli"}
+console.log(obj2)
+//Resposta: {"name": "Virat", "ref": "Kohli"}
 
 //---------------------------------------------
 
