@@ -3,6 +3,11 @@
 
 //---------------------------------------------
 
+let array1 = ['preto', 10, null]
+let array2 = ['verde', 40, undefined]
+let array3 = array1.concat(array2)
+console.log(array3)
+Resposta: ['preto', 10, null, 'verde', 40, undefined]
 
 //---------------------------------------------
 
