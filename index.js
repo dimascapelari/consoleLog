@@ -3,6 +3,10 @@
 
 //---------------------------------------------
 
+let array = ['preto', 10, 20, 30]
+array.push('novo elemento') console.log(array)
+
+//Resposta: ['preto', 10, 20, 30, 'novo elemento']
 
 //---------------------------------------------
 
