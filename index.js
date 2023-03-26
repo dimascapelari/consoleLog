@@ -8,8 +8,7 @@ let x = {
   },
 };
 console.log(x.print());
-//Resposta: false
-
+//Resposta: false. A função de seta (() => {...}) não cria um novo contexto de this e, portanto, o valor de this dentro da função é o mesmo que fora dela.
 //---------------------------------------------
 let x = {
   y: "z",
