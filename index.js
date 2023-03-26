@@ -17,7 +17,7 @@ let x = {
   },
 };
 console.log(x.print());
-//Resposta: true
+//Resposta: true. Função regular em vez de uma função de seta
 
 //---------------------------------------------
 console.log([1, 2, 3] == [1, 2, 3]);
