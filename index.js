@@ -8,7 +8,22 @@ let x = {
   },
 };
 console.log(x.print());
-//Resposta: false. A função de seta (() => {...}) não cria um novo contexto de this e, portanto, o valor de this dentro da função é o mesmo que fora dela.
+//Resposta: false. 
+
+A resposta é falsa porque o valor de this.y 
+dentro do método print não se refere à propriedade 
+y do objeto x. Isso ocorre porque a função 
+de seta (() => {...}) não cria um novo contexto 
+de this e, portanto, o valor de this dentro da 
+função é o mesmo que fora dela.
+
+Quando o método print é chamado através de 
+x.print(), o valor de this é o objeto global 
+(no navegador, o objeto window, e no Node.js, 
+o objeto global). Como o objeto global não tem 
+uma propriedade y definida, a expressão 
+this.y === "z" retorna false.
+
 //---------------------------------------------
 let x = {
   y: "z",
