@@ -9,6 +9,7 @@ let x = {
 };
 console.log(x.print());
 //Resposta: false
+
 //---------------------------------------------
 let x = {
   y: "z",
