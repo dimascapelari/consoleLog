@@ -8,7 +8,7 @@ let x = {
   },
 };
 console.log(x.print());
-//Resposta: false. 
+//Resposta: false
 
 A resposta é falsa porque o valor de this.y 
 dentro do método print não se refere à propriedade 
@@ -25,6 +25,12 @@ uma propriedade y definida, a expressão
 this.y === "z" retorna false.
 
 //---------------------------------------------
+Para corrigir isso, podemos usar uma função 
+regular em vez de uma função de seta para definir 
+o método print e usar a sintaxe objeto.método() 
+para chamar o método em vez de função(). 
+Ficaria assim:
+
 let x = {
   y: "z",
   print: function () {
@@ -32,7 +38,7 @@ let x = {
   },
 };
 console.log(x.print());
-//Resposta: true. Função regular em vez de uma função de seta
+//Resposta: true
 
 //---------------------------------------------
 console.log([1, 2, 3] == [1, 2, 3]);
