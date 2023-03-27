@@ -1,4 +1,11 @@
 //---------------------------------------------
+const original = { name: "MDN" };
+original.itself = original;
+const clone = structuredClone(original);
+
+console.log(clone !== original); //Resposta: true
+console.log(clone.name === "MDN"); //Resposta: true
+console.log(clone.itself === clone); //Resposta: true
 
 //---------------------------------------------
 let x = {
