@@ -1,4 +1,10 @@
 //---------------------------------------------
+let decimal = 7.6;
+let getInt = Math.floor(decimal);
+console.log(getInt);
+//Resposta: 7 -> O método Math.floor() em JavaScript arredonda um número PARA BAIXO para o inteiro mais próximo.
+
+//---------------------------------------------
 const original = { name: "MDN" };
 original.itself = original;
 const clone = structuredClone(original);
