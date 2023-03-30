@@ -1,4 +1,9 @@
 //---------------------------------------------
+const fruits = ["apple", "banana", "orange"];
+console.log(fruits.length);
+//Resposta: 3
+
+//---------------------------------------------
 let decimal = 7.6;
 let getInt = Math.floor(decimal);
 console.log(getInt);
