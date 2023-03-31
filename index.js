@@ -1,4 +1,21 @@
 //---------------------------------------------
+//---------------------------------------------
+//---------------------------------------------
+function foo() {
+  let x = 1;
+  function bar() {
+    console.log(x);
+  }
+  x = 2;
+  return bar;
+}
+
+let y = foo();
+let x = 3;
+y();
+//Resposta: 2
+
+//---------------------------------------------
 const fruits = ["apple", "banana", "orange"];
 console.log(fruits.length);
 //Resposta: 3
