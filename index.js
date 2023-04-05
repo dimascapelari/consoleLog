@@ -1,4 +1,10 @@
 //---------------------------------------------
+function parameter(para = 10) {
+  console.log(para);
+}
+parameter(null);
+//Resposta: null
+
 //---------------------------------------------
 const a = 3 > 2 > 1;
 console.log(a);
