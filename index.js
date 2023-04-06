@@ -1,3 +1,4 @@
+//---------------------------------------------
 const promise1 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("Hello"), 2000);
 });
