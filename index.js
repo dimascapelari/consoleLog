@@ -1,5 +1,11 @@
 
 //---------------------------------------------
+const min = 100;
+const max = 200;
+const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(randomNum);
+//Resposta: imprime um número aleatório entre 100 e 200
+
 //---------------------------------------------
 let c = "FooBar";
 let b = String("FooBar");
