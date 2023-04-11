@@ -1,3 +1,10 @@
+//---------------------------------------------
+const arr = [1, 2, 3];
+const newArr = arr.map(function (num) {
+  return num * 2;
+});
+console.log(newArr);
+//Resposta: [2, 4, 6]
 
 //---------------------------------------------
 const min = 100;
