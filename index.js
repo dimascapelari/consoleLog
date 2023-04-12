@@ -1,4 +1,8 @@
 //---------------------------------------------
+console.log("2" + 2 - "1")
+//Resposta: 21
+
+//---------------------------------------------
 const arr = [1, 2, 3];
 const newArr = arr.map(function (num) {
   return num * 2;
