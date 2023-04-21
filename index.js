@@ -1,3 +1,10 @@
+
+const y = {name: 'React Js'}
+const b = y
+b.name = 'JavaScript'
+console.log(y.name)
+//Resposta: JavaScript 
+
 //---------------------------------------------
 let a = 20;
 {
