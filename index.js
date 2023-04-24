@@ -2,7 +2,12 @@
 
 
 //---------------------------------------------
+let person = { name: "Lydia" };
+const members = [person];
+person = null;
 
+console.log(members);
+//Resposta: [ { name: 'Lydia' } ]
 
 //---------------------------------------------
 let a = 3
