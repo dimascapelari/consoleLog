@@ -1,4 +1,14 @@
 //---------------------------------------------
+let x = 1;
+
+function add() {
+  let x = 2;
+  return x + y;
+}
+
+let y = 3;
+console.log(add());
+//Resposta: 5
 
 //---------------------------------------------
 const people = { name: "John", age: 30 };
