@@ -1,7 +1,14 @@
 //---------------------------------------------
 
 //---------------------------------------------
-console.log("Olá Mundo!")
+let sum = 0;
+
+function addSum(num) {
+  sum = sum + num;
+}
+console.log(addSum(3));
+//Resposta: undefined
+
 //---------------------------------------------
 let one = 34522445
 if(one === 34522445){one = 33}
