@@ -2,7 +2,11 @@
 
 
 //---------------------------------------------
-
+function myFunc() {
+  return "43";
+}
+console.log(typeof myFunc());
+//Resposta: string
 
 //---------------------------------------------
 const num1 = 1_000_000_000;
