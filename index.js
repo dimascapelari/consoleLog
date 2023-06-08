@@ -7,7 +7,7 @@ console.log(null + true);
 //Resposta: 1
 
 //-----------------------------------------
-console.log("olá mundo!")
+
 
 //---------------------------------------------
 function myFunc() {
