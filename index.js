@@ -1,3 +1,8 @@
+var a = 1
+var b = 2
+console.log(a+++b)
+//Resposta: 3
+
 //---------------------------------------------
 console.log("4" + 5 * 5)
 //Resposta: 425
