@@ -1,3 +1,7 @@
+console.log(null==0);
+//Resposta: false
+//---------------------------------------------
+
 var a = 1
 var b = 2
 console.log(a+++b)
