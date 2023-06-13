@@ -1,3 +1,10 @@
+let variaveis = 'pessoas por aí';
+const constante = 'você';
+console.log(`Entre tantas ${variaveis}, eu escolho ${constante} no meu coração`);
+//Resposta: Entre tantas pessoas por aí, eu escolho você no meu coração
+
+//---------------------------------------------
+
 console.log(null==0);
 //Resposta: false
 //---------------------------------------------
