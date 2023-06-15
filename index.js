@@ -1,3 +1,9 @@
+let x = "99 Dollars";
+let y = " 101 Dollars" ;
+console.log(parseInt(x) + parseInt(y));
+//Resposta: 200
+//---------------------------------------------
+
 console.log(!![]);
 //Resposta: true
 //---------------------------------------------
