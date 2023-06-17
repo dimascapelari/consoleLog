@@ -1,5 +1,7 @@
+const nums = [1,2,3]
+console.log(nums.length --1)
+//Resposta: error
 //---------------------------------------------
-
 let x = "99 Dollars";
 let y = " 101 Dollars" ;
 console.log(parseInt(x) + parseInt(y));
