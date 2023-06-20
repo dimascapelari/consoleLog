@@ -1,3 +1,15 @@
+//---------------------------------------------
+//---------------------------------------------
+let time = 19;
+if (time >=5 && time <=20) {
+console.log('Good morning');
+}
+else {
+console.log('Good night');
+}
+//Resposta: Good morning
+
+//---------------------------------------------
 const range = [...Array(100).keys()]
 console.log(range)
 //Resposta: (100)[ 0,1,2,3,4,5,6,7,8,9,… ]
