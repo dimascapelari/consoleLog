@@ -1,4 +1,12 @@
 //---------------------------------------------
+let x = 5;
+let y = 10;
+let z = 15;
+let result = (x < y) && (y < z);
+console.log(result);
+
+//Resposta: true
+
 //---------------------------------------------
 let time = 19;
 if (time >=5 && time <=20) {
