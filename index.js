@@ -1,3 +1,10 @@
+
+console.log(10 + "5")
+console.log(10 - "5")
+
+//Resposta: 105, 5
+
+//---------------------------------------------
 let a = {index: 8, age: 17}
 const {age} = a
 const {index} = a
