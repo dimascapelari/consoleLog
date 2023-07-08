@@ -1,3 +1,11 @@
+
+Symbol("a") == Symbol("a")
+//Resposta: false
+
+Symbol("a").toString() === Symbol("a").toString();
+//Resposta: true
+
+//---------------------------------------------
 console.log(typeof [])
 //Resposta: object
 
