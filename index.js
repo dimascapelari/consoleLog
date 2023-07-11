@@ -2,6 +2,8 @@
 Symbol("a") == Symbol("a")
 //Resposta: false
 
+//---------------------------------------------
+
 Symbol("a").toString() === Symbol("a").toString();
 //Resposta: true
 
