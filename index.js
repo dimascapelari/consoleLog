@@ -1,3 +1,7 @@
+const x = "57392"
+let y = x.substring(2,3)
+console.log(y)
+//Resposta: 3
 
 //---------------------------------------------
 var x = 5;
