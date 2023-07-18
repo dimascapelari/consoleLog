@@ -1,3 +1,9 @@
+let a = 0;
+for(a; a<5; a++);
+console.log(a)
+//Resposta: 5
+
+//---------------------------------------------
 const x = "57392"
 let y = x.substring(2,3)
 console.log(y)
