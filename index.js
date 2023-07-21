@@ -1,3 +1,8 @@
+
+//---------------------------------------------
+console.log(1 + 1 - "1")
+//Resposta: 1
+
 //---------------------------------------------
 const numbers = [1, 2, 3, 4, 5];
 const squaredNumbers = numbers.map(num => num ** 2);
