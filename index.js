@@ -1,9 +1,7 @@
 let arr = [1,2];
-
 function test(array){
 arr = [1,2,3];
 }
-
 test(arr);
 console.log(arr);
 //Resposta: [1,2,3]
