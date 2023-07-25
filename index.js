@@ -1,3 +1,9 @@
+var x = 10;
+console.log(x++);
+console.log(++x)
+//Resposta: 10, 12
+
+//---------------------------------------------
 let arr = [1,2];
 function test(array){
 arr = [1,2,3];
