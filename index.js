@@ -1,3 +1,8 @@
+const obj = {a: 20 };
+obj.a = 30;
+console.log(obj)
+//Resposta: {a: 30
+
 //---------------------------------------------
 console.log(3 + + "3");
 //Resposta: 6
