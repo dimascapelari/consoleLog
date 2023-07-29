@@ -1,3 +1,9 @@
+const result1 = 1 < 2 < 3;
+const result2 = 3 > 2 > 1;
+console.log(result1, result2);
+//Resposta: true, false
+
+//---------------------------------------------
 const obj = {a: 20 };
 obj.a = 30;
 console.log(obj)
