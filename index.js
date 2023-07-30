@@ -1,3 +1,9 @@
+const a = { name: "Will"} 
+const b = { name: "Will"}
+console.log(a == b)
+//Resposta: false
+
+//---------------------------------------------
 const result1 = 1 < 2 < 3;
 const result2 = 3 > 2 > 1;
 console.log(result1, result2);
