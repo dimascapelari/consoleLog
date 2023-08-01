@@ -1,3 +1,9 @@
+let a = (1,5 - 1) * 2
+
+console.log(a)
+//Resposta: 8
+
+
 const a = { name: "Will"} 
 const b = { name: "Will"}
 console.log(a == b)
