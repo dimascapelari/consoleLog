@@ -5,7 +5,11 @@
 
 
 //---------------------------------------------
+const array = [1, 'a', 2, 'b', 3, 'c'];
+const slicedArray = array.slice(2,5);
+console.log(slicedArray);
 
+//Resposta: [2, "b", 3]
 
 //---------------------------------------------
 let a = (1,5 - 1) * 2
