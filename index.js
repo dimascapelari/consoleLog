@@ -1,3 +1,8 @@
+var d = 30;
+var e = 10;
+console.log(d <= e);
+//Resposta: false
+
 //---------------------------------------------
 const prices = [50, 20, 100, 30, 80]; prices.sort(); console.log(prices);
 //Resposta: [100, 20, 30, 50, 80]
