@@ -1,3 +1,18 @@
+
+
+//---------------------------------------------
+function outer() {
+var x = 10;
+
+function inner() {
+console.log(x);
+}
+return inner;
+}
+var closureFunction = outer();
+closureFunction();
+//Resposta: 10
+
 //---------------------------------------------
 let a = "5"; let b = 2; 
 console.log(a+++b)
